@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Password Checker</h2>
+        <form id="passwordForm">
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" name="password" oninput="checkPassword()">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="passwordFeedback" class="feedback"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
